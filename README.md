@@ -2,8 +2,8 @@
 
 ## 介绍
 
-- 可用于引导~~Bug~~Big Sur 11.4
-- OpenCore 版本:0.7.0
+- 可用于引导 Monterey 12.0.1
+- OpenCore 版本:0.7.5
   - 声卡设备地址为`PciRoot(0x0)/Pci(0x1F,0x3)`
   - USB controller 为`0xA3AF`，因此`USBInjectAll.kext`和`XHCI-unsupported.kext`也需要修改
   - `USBInjectAll.kext`需要添加`iMac20,2`
